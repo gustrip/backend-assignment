@@ -1,0 +1,7 @@
+[2019-10-14T08:15:28.623503+03:00] my_logger.INFO: http://localhost:8888/v1/ships/coordinates?minLat=5&maxLat=35 [] []
+[2019-10-14T08:16:04.345959+03:00] my_logger.INFO: http://localhost:8888/v1/ships/time-interval?minDate=1372689999&maxDate=1372700000 [] []
+[2019-10-14T08:16:29.561627+03:00] my_logger.INFO: http://localhost:8888/v1/ships/coordinates?minLat=5&maxLat=35 [] []
+[2019-10-14T08:17:27.388732+03:00] my_logger.INFO: http://localhost:8888/v1/ships/coordinates?minLat=5&maxLat=35 [] []
+[2019-10-14T08:17:30.765973+03:00] my_logger.INFO: http://localhost:8888/v1/ships/time-interval?minDate=1372689999&maxDate=1372700000 [] []
+[2019-10-14T08:19:05.543370+03:00] my_logger.INFO: http://localhost:8888/v1/ships/coordinates?minLat=5&maxLat=35 [] []
+[2019-10-14T08:20:36.112973+03:00] my_logger.INFO: http://localhost:8888/v1/ships/mmsi?mmsi%5B%5D=247039300&mmsi%5B%5D=311040700 [] []

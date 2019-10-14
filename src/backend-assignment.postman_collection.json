@@ -1,0 +1,212 @@
+{
+	"variables": [],
+	"info": {
+		"name": "backend-assignment",
+		"_postman_id": "41028ff4-fd2f-10e1-8314-9da39e72e904",
+		"description": "backend-assignment for MarineTraffic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "simple get for coordinates",
+			"request": {
+				"url": {
+					"raw": "localhost:8888/v1/ships/coordinates?minLat=5&maxLat=35",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"v1",
+						"ships",
+						"coordinates"
+					],
+					"query": [
+						{
+							"key": "minLat",
+							"value": "5",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "maxLat",
+							"value": "35",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "text/csv",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "text/css",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/ld+json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "415 Unsupported Media Type",
+			"request": {
+				"url": {
+					"raw": "localhost:8888/v1/ships/mmsi?mmsi[]=247039300&mmsi[]=311040700",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"v1",
+						"ships",
+						"mmsi"
+					],
+					"query": [
+						{
+							"key": "mmsi[]",
+							"value": "247039300",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "mmsi[]",
+							"value": "311040700",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "text/csv",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "text/css",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/ld+json",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simple get for ships with mmsi ",
+			"request": {
+				"url": {
+					"raw": "localhost:8888/v1/ships/mmsi?mmsi[]=247039300&mmsi[]=311040700",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"v1",
+						"ships",
+						"mmsi"
+					],
+					"query": [
+						{
+							"key": "mmsi[]",
+							"value": "247039300",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "mmsi[]",
+							"value": "311040700",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "text/csv",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "text/css",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/ld+json",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
